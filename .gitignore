@@ -1,0 +1,8 @@
+### AL ###
+#Template for AL projects for Dynamics 365 Business Central
+#launch.json folder
+.vscode/
+img/
+conexion.php
+send_contact_form.php
+send_pool_form.php

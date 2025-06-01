@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de satisfacción</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Business, Service">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/LineIcons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header id="inicio" style="background: #0E4A8C;
+    background: linear-gradient(95deg, #0A1A33 0%, #0E4A8C 25%, #4A84C0 50%, #81AEDD 75%, #B6D4EE 100%);
+    ">
+        <div class="overlay">
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar navbar-expand-md bg-inverse scrolling-navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="img/Logo GESICC.png" width="100" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lni-menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./index.html#nosotros">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./index.html#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./index.html#recientes">Obras recientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row space-100">
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                    <div class="contents">
+                        <h2 style="color: azure; margin-top: 3%;" class="head-title center">Encuesta de satisfacción a clientes</h2>
+
+                        <section id="contacto" style="margin-top: 5%;">
+                            <!-- Container Starts -->
+                            <div class="container">
+                                <!-- Start Row -->
+                                <div class="row">
+                                    <!-- Start Col -->
+                                    <div class="col-lg-6 col-md-12">
+                                        <form method="post" action="./send_pool_form.php" id="contactForm">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="nombre"
+                                                            name="nombre" placeholder="Nombre" required
+                                                            data-error="Por favor introduce tu nombre">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" placeholder="Apellidos" id="apellidos"
+                                                            class="form-control" name="apellidos">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="email" name="correo"
+                                                            placeholder="Correo electrónico" required
+                                                            data-error="Por favor, introduce tu correo electrónico">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="obra" name="id_obra"
+                                                            placeholder="Identificador de la obra" required
+                                                            data-error="Por favor, introduce el dato solicitado">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <hr style="height: 10%; color:  white;">
+                                                <p style="margin-left: 3%; color: azure; font-size: 15px; margin-bottom: 4%; margin-top: 3%;">Responde las siguientes preguntas considerando el 5 como la calificación mas alta (excelente), y 1 como la mas baja (malo)</p>
+                                                <br>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="interaccion">¿Cómo calificaría su interacción con GESICC S.A DE C.V?</label>
+                                                        <select class="form-control" name="interaccion">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="orieintacion">¿Cómo calificaría la orientación y soporte que brinda GESICC S.A DE C.V?</label>
+                                                        <select class="form-control" name="orieintacion">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="atencion">¿Cómo calificaría la atención del personal?</label>
+                                                        <select class="form-control" name="atencion">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="informes_servicio">¿Qué tan informado estuvo sobre el progreso del servicio solicitado?</label>
+                                                        <select class="form-control" name="informes_servicio">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="informacion_ensayo">¿Cómo calificaría la información y entrega de informes de ensayos?</label>
+                                                        <select class="form-control" name="informacion_ensayo">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="informacion_proceso_quejas">¿Cómo fue la información que recibió para el tratamiento de quejas?</label>
+                                                        <select class="form-control" name="informacion_proceso_quejas">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="tiempo_respuesta">¿Cómo califica el tiempo de respuesta en la atención de quejas?</label>
+                                                        <select class="form-control" name="tiempo_respuesta">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="recomendacion">¿Recomendarías nuestros servicios a un colega o amigo?</label>
+                                                        <select class="form-control" name="recomendacion">
+                                                            <option value="">Seleccione una opción</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="4">5</option>
+                                                        </select>
+                                                    </div>
+
+                                                    
+                                                </div>
+
+                                            
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" id="comments" minlength="10"
+                                                            name="comentarios"
+                                                            placeholder="Parte de nuestra mejora es alinearnos a sus expectativas. Cuéntenos lo que piensa, ¡Gracias!"
+                                                            rows="4"></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+
+                                                    <div class="submit-button">
+                                                        <button class="btn btn-common" id="submit"
+                                                            type="submit">Enviar</button>
+                                                        <div id="msgSubmit" class="h3 hidden"></div>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- End Col -->
+                                    <!-- Start Col -->
+                                    <div class="col-lg-1">
+
+                                    </div>
+                                    <!-- End Col -->
+                                    <!-- Start Col -->
+                                    <div class="col-lg-4 col-md-12">
+                                       <!--  TODOO INSERTAR IMAGEN DE CONTROL DE DOCUMENTO  -->
+                                    </div>
+                                    <!-- End Col -->
+                                    <!-- Start Col -->
+                                    <div class="col-lg-1">
+                                    </div>
+                                    <!-- End Col -->
+
+                                </div>
+                                <!-- End Row -->
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+</body>
+
+</html>
